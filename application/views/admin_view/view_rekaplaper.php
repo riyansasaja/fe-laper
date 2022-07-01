@@ -1,7 +1,6 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-// echo $this->uri->segment(2, 0);
-// die;
+
 ?>
 
 
@@ -12,7 +11,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" data-scroll="true">
         <div class="container-fluid py-1 px-3">
             <nav aria-label="breadcrumb">
-                <h3 class="font-weight-bolder mb-0">Dashboard Laporan Perkara</h3>
+                <h3 class="font-weight-bolder mb-0">Dashboard Rekap Laporan Perkara</h3>
             </nav>
             <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
                 <div class="ms-md-auto pe-md-3 d-flex align-items-center">
@@ -39,7 +38,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <div class="container-fluid py-4">
         <div class="row">
             <div class="col text-center">
-                <h6 class="d-block">Laporan Perkara Tahun 2022</h6>
+                <h6 class="d-block">Rekap Laporan Perkara <br> Tahun 2022</h6>
                 <!-- dropdown start -->
                 <div class="d-flex justify-content-center">
                     <div class="dropdown">
@@ -56,6 +55,56 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <!-- dropdown end -->
             </div>
         </div>
+
+        <!-- modal start -->
+        <div class="row">
+            <div class="col">
+                <!-- button -->
+                <button type="button" class="btn bg-gradient-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Tambah Laporan
+                </button>
+
+                <!-- modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-normal" id="exampleModalLabel">Tambah Laporan Perkara</h5>
+                                <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- form start -->
+                                <form action="">
+                                    <div class="input-group input-group-static my-3">
+                                        <label for="bulan">Periode</label>
+                                        <input id="bulan" type="month" class="form-control">
+                                    </div>
+                                    <div class="input-group input-group-static my-3">
+                                        <label for="upload-pdf">Upload file PDF</label>
+                                        <input id="upload-pdf" type="file" class="form-control">
+                                    </div>
+                                    <div class="input-group input-group-static my-3">
+                                        <label for="upload-zip">Upload file ZIP</label>
+                                        <input id="upload-zip" type="file" class="form-control">
+                                    </div>
+                                </form>
+                                <!-- form end -->
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn bg-gradient-secondary" data-bs-dismiss="modal">Batal</button>
+                                <button type="button" class="btn bg-gradient-primary">Simpan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+
+            </div>
+        </div>
+        <!-- modal end -->
+
 
         <!-- table start -->
         <div class="card">

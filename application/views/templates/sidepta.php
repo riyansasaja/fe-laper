@@ -11,17 +11,17 @@
         <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link text-white <?= $this->uri->segment(2, 0) === 0 ? 'active bg-gradient-secondary' : ''; ?>" href="<?= base_url('admin/') ?>">
+                    <a class="nav-link text-white <?= $this->uri->segment(2, 0) === 0 ? 'active bg-gradient-secondary' : ''; ?>" href="<?= base_url('pta_user/') ?>">
                         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         </div>
-                        <span class="nav-link-text ms-1">Laporan Perkara Tk.I </span>
+                        <span class="nav-link-text ms-1">Rekap Pelaporan Perkara </span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white " href="./pages/billing.html">
                         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         </div>
-                        <span class="nav-link-text ms-2">Laporan Triwulan</span>
+                        <span class="nav-link-text ms-2">Rekap Pelaporan Triwulan</span>
                     </a>
                 </li>
                 <!-- garis -->

@@ -18,9 +18,9 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" sizes="76x76" href="<?= base_url() ?>/assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="<?= base_url() ?>/assets/img/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="76x76" href="<?= base_url() ?>/assets/img/apple-icon.png" />
+    <link rel="icon" type="image/png" href="<?= base_url() ?>/assets/img/favicon.png" />
     <title>
         Laporan Perkara
     </title>
@@ -32,7 +32,7 @@
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/f8c43fa68d.js" crossorigin="anonymous"></script>
     <!-- Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <!-- CSS Files -->
     <link id="pagestyle" href="<?= base_url() ?>/assets/css/material-dashboard.css?v=3.0.3" rel="stylesheet" />
 </head>
