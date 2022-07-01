@@ -19,4 +19,12 @@ class Admin extends CI_Controller
         $this->load->view('admin_view/view_document');
         $this->load->view('templates/footer');
     }
+
+    public function rekaplaper()
+    {
+        $this->load->view('templates/header');
+        $this->load->view('templates/sideadmin');
+        $this->load->view('admin_view/view_rekaplaper');
+        $this->load->view('templates/footer');
+    }
 }
