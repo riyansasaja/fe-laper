@@ -21,4 +21,13 @@ class Pa_user extends CI_Controller
 		$this->load->view('pa_user/action_view');
 		$this->load->view('templates/footer', $data);
 	}
+
+	public function pa_Triwulan()
+	{
+		$data['js'] = '';
+		$this->load->view('templates/header');
+		$this->load->view('templates/side');
+		$this->load->view('pa_user/pa_triwulan');
+		$this->load->view('templates/footer', $data);
+	}
 }
