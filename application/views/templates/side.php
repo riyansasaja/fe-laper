@@ -18,7 +18,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white " href="<?= base_url() ?>/pa_user/pa_triwulan">
+                    <a class="nav-link text-white " href="<?= base_url() ?>/pa_user/triwulan">
                         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         </div>
                         <span class="nav-link-text ms-2">Laporan Perkara Triwulan</span>

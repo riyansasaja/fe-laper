@@ -22,12 +22,21 @@ class Pa_user extends CI_Controller
 		$this->load->view('templates/footer', $data);
 	}
 
-	public function pa_Triwulan()
+	public function triwulan()
 	{
 		$data['js'] = '';
 		$this->load->view('templates/header');
 		$this->load->view('templates/side');
-		$this->load->view('pa_user/pa_triwulan');
+		$this->load->view('pa_user/triwulan');
+		$this->load->view('templates/footer', $data);
+	}
+
+	public function addTriwulan()
+	{
+		$data['js'] = '';
+		$this->load->view('templates/header');
+		$this->load->view('templates/side');
+		$this->load->view('pa_user/add_triwulan');
 		$this->load->view('templates/footer', $data);
 	}
 }
